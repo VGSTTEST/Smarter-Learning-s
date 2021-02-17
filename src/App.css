@@ -1,0 +1,286 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*---------*/
+
+#stylenav{
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.514) 10%, #ffffff00 100%);
+}
+#stylenav01{
+ padding: 10px;
+ display: block;
+}
+
+#Smarterlearning,#stylenav02{
+  display: inline;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(255, 157, 0);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  width: 50%;
+  padding: 5px;
+  font-size: 25px;
+}
+#logo{
+  display: inline;
+  width: 50px;
+  border-radius: 10px;
+  margin-left: 20px;
+  float: left;
+}
+#signin{
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  float: right;
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(100, 100, 100);
+  border: none;
+  padding: 8px;
+  margin: 8px;
+}
+
+#nav{
+ 
+  display: block;
+  padding: 1px;
+}
+#navBoxs,#navBoxs02,#navBoxs01{
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  display: inline;
+  margin: 10px;
+  margin-left: 20px;
+  padding: 10px 10px 10px 10px;
+  border: none;
+  background-color: rgba(85, 148, 148, 0);
+  color: #ffffff;
+}
+#navBox01{
+  float: right;
+}
+#search{
+  margin: 10px 0px 10px 10px;
+  border: #3b3b3b solid;
+  float: right;
+  border-radius: 5px;
+  height: 30px;
+  width: 40%;
+}
+#Search{
+  background-color: rgb(114, 114, 114);
+  border-radius: 5px;
+  float: right;
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 7px;
+  margin: 10px 10px 10px 0px;
+}
+
+body{
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-image: url(./img/background.jpg);
+}
+@media only screen and (max-width: 1080px) {
+
+  body{
+      background-repeat: no-repeat;
+      padding: 8vw;
+      background-size: 150%;
+  
+  }
+}    
+table{
+  margin: auto;
+}
+.Setup{
+  background-color: rgba(0, 0, 0, 0.63);
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bolder;
+  margin: auto;
+  padding: 30px;
+  color:  rgb(0, 0, 0);
+
+}
+.enter, #verifypassword{
+  border: none;
+  margin: 2px;
+  border-radius: 10px;
+  width: 340px;
+  height: 30px;
+  background-color: rgba(255, 255, 255, 0.938);
+  padding: 5px;
+  font-size: 17px;
+  display: block;
+  margin: 5px;
+  border-left:rgba(112, 112, 112, 0) solid 5px ;
+
+}
+.enter:active, #verifypassword:active,.enter:hover, #verifypassword:hover{
+  
+  border-left:rgba(112, 112, 112, 0.548) solid 5px ;
+
+}
+
+#getget{
+  font-size: 18px;
+}
+
+#login,#logout,#signUp,#next{
+  height: 35px;
+  width: 345px;
+  color: #ffffff;
+  border: none;
+  background-color: rgb(251, 158, 36);
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 5px;
+  margin: 10px;
+}
+
+
+
+.cancle{
+  height: 30px;
+  width: 80px;
+  color: #ffffff;
+  border: none;
+  background-color: rgba(255, 72, 72, 0.897);
+  border-radius: 5px;
+}
+
+
+.google{
+  height: 40px;
+  width: 360px;
+  color: #ffffff;
+  border: none;
+  background-color: rgb(55, 80, 189);
+  border-radius: 5px;
+  margin: 2px;
+}
+
+#start1{
+  font-size: 25px;
+  color: rgb(251, 158, 36);
+  text-align: center;
+}
+#start2,#start3{
+  font-size: 20px;
+  color: rgb(251, 158, 36);
+  text-align: center;
+}
+
+
+.problem{
+  text-align: center;
+}
+#reg,.atag{
+  color: rgb(251, 158, 36);
+  text-decoration: underline;
+  text-align: center;
+}
+
+
+#verifypassword,#logout,#signUp,#otp,#next,#start3{
+  display: none;
+}
+
+#contacts{
+  float: right;
+  display: inline;
+  width: fit-content;
+}
+#contactsimg{
+  width: 10px;
+  height: 20px;
+}
+
+/*Drop Down*/
+.dropbtn {
+  border: none;
+  border-radius: 10px;
+  width: 350px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.938);
+  text-align: left;
+  color: #707070;
+  padding: 5px;
+  font-size: 17px;
+  display: block;
+  border-left:rgba(112, 112, 112, 0) solid 5px ;
+  cursor: pointer;
+  margin-left: 6px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #9e9e9e;
+}

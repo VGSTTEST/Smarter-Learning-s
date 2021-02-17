@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Smarter-Learning-s/static/css/main.52887d91.chunk.css",
+    "main.js": "/Smarter-Learning-s/static/js/main.5e40289f.chunk.js",
+    "main.js.map": "/Smarter-Learning-s/static/js/main.5e40289f.chunk.js.map",
+    "runtime-main.js": "/Smarter-Learning-s/static/js/runtime-main.d266bff0.js",
+    "runtime-main.js.map": "/Smarter-Learning-s/static/js/runtime-main.d266bff0.js.map",
+    "static/js/2.aa2213e9.chunk.js": "/Smarter-Learning-s/static/js/2.aa2213e9.chunk.js",
+    "static/js/2.aa2213e9.chunk.js.map": "/Smarter-Learning-s/static/js/2.aa2213e9.chunk.js.map",
+    "static/js/3.31152331.chunk.js": "/Smarter-Learning-s/static/js/3.31152331.chunk.js",
+    "static/js/3.31152331.chunk.js.map": "/Smarter-Learning-s/static/js/3.31152331.chunk.js.map",
+    "index.html": "/Smarter-Learning-s/index.html",
+    "static/css/main.52887d91.chunk.css.map": "/Smarter-Learning-s/static/css/main.52887d91.chunk.css.map",
+    "static/js/2.aa2213e9.chunk.js.LICENSE.txt": "/Smarter-Learning-s/static/js/2.aa2213e9.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Smarter-Learning-s/static/media/background.9b8e89da.jpg",
+    "static/media/logo.6ce24c58.svg": "/Smarter-Learning-s/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d266bff0.js",
+    "static/js/2.aa2213e9.chunk.js",
+    "static/css/main.52887d91.chunk.css",
+    "static/js/main.5e40289f.chunk.js"
+  ]
+}
